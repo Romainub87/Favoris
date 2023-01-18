@@ -12,7 +12,7 @@
         <ul>
             <li class="deroulant"><a href="#">Pages Favorites</a>
                 <ul class="submenu">
-                    <li><a href="ajout_page.php">Ajout de page</a></li>
+                    <li><a href="https://romainub87.github.io/Favoris/ajout_page">Ajout de page</a></li>
                     <li><a href="vider_page.php">Vider la page</a></li>
                 </ul>
             </li>
