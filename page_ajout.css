@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style de la barre de navigation */
+#nav {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    font-style: oblique;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 150px;
+}
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: floralwhite;
+    border-bottom: 2px floralwhite solid;
+}
+
+nav > ul  li:hover  .submenu {
+    display: table;
+}
+
+.submenu a:hover {
+    border-bottom: 2px floralwhite solid;
+    background-color: rgba(200, 200, 200, 0.1);
+}
+
+.deroulant > a::after {
+    content: "  \2BAF";
+    font-size: 15px;
+}
+
+.submenu {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: burlywood;
+    padding-left: 1px;
+    margin-left: 75px;
+    position: absolute;
+    width: 100%;
+    z-index: auto;
+}
+
+nav ul li {
+    text-align: center;
+    position: relative;
+}
+/* Fin de style de la barre de navigation */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 25px;
+    width: 250px;
+    padding: 15px;
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 15%;
+    background-color: burlywood;
+    font-style: oblique;
+}
+
+#ajouter {
+    display: flex;
+    margin: auto;
+}
+
